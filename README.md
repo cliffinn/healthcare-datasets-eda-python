@@ -135,7 +135,7 @@ This dataset contains billing information for patients, including total bill amo
 **Out_of_Pocket_Expenses**: Amount paid out-of-pocket by the patient.
 
 
-### 1. Key Findings and Trends
+###  Key Findings and Trends
 ### 1.1 Patient Demographics and Health Data
 **Age Distribution:** The dataset includes patients ranging from 28 to 81 years old, with a significant number of elderly patients.
 
