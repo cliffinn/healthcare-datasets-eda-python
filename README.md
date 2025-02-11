@@ -3,7 +3,7 @@
 ### Healthcare Dataset Overview
 This dataset is designed to support the analysis of patient behavior, healthcare trends, and resource utilization in a hospital setting. It aligns with the responsibilities, goals, and processes outlined in the project structure.
 
-## Responsibilities
+### Responsibilities
 As the data analyst for this project:
 
 Analyze patient and hospital resource data
@@ -16,7 +16,7 @@ Create and maintain a healthcare dashboard
 
 Generate insights and recommendations for improving patient care and resource allocation
 
-## Project Goals
+### Project Goals
 Visualize patient behavior and resource utilization through key metrics.
 
 Identify and track healthcare trends over time (e.g., admission rates, diagnosis trends, resource usage).
@@ -25,12 +25,12 @@ Segment patients based on demographics, diagnosis, and treatment plans.
 
 Provide actionable insights for improving hospital operations and patient outcomes.
 
-## Data Sources
+### Data Sources
 Internal Hospital Database: Primary source for patient records, admissions, diagnoses, treatments, and billing data.
 
 Third-Party Healthcare Data: Supplementary data on regional healthcare trends, demographics, and disease prevalence.
 
-## Data Analysis Process
+### Data Analysis Process
 **Data Extraction**: Extract data from internal hospital systems and third-party sources.
 
 **Data Cleaning and Transformation**: Handle missing values, standardize formats, and merge datasets.
@@ -43,7 +43,7 @@ Third-Party Healthcare Data: Supplementary data on regional healthcare trends, d
 
 **Insight Generation**: Derive actionable insights for improving hospital operations and patient care.
 
-## Key Deliverables
+### Key Deliverables
 **Cleaned and Transformed Dataset**: A structured dataset ready for analysis.
 
 **Interactive Dashboard**: A dashboard with visualizations for key metrics (e.g., admission trends, resource utilization, patient segmentation).
@@ -68,7 +68,7 @@ This project requires close collaboration with:
 ## Dataset Structure
 The dataset is divided into four main csv file, each focusing on a specific aspect of healthcare operations:
 
-# 1. Patients Dataset (patients.csv)
+### 1. Patients Dataset (patients.csv)
 This dataset contains information about patients, including demographics, admission details, diagnosis, and treatment plans.
 
 **Columns:**
@@ -90,7 +90,7 @@ This dataset contains information about patients, including demographics, admiss
 
 **Treatment_Plan**: Treatment plan prescribed for the patient.
 
-# 2. Hospital Resources Dataset (hospital_resources.csv)
+### 2. Hospital Resources Dataset (hospital_resources.csv)
 This dataset tracks the utilization of hospital resources over time.
 
 **Columns:**
@@ -106,7 +106,7 @@ This dataset tracks the utilization of hospital resources over time.
 
 **Xray_In_Use**: Number of X-ray machines in use.
 
-# 3. Medical Records Dataset (medical_records.csv)
+### 3. Medical Records Dataset (medical_records.csv)
 This dataset contains detailed medical records for patients, including prescribed medications, tests ordered, and test results.
 
 **Columns:**
@@ -120,7 +120,7 @@ This dataset contains detailed medical records for patients, including prescribe
 
 **Test_Result**: Result of the test (e.g., Normal, Abnormal, Critical).
 
-# 4. Billing Dataset (billing.csv)
+### 4. Billing Dataset (billing.csv)
 This dataset contains billing information for patients, including total bill amounts, insurance coverage, and out-of-pocket expenses.
 
 **Columns**:
@@ -135,7 +135,7 @@ This dataset contains billing information for patients, including total bill amo
 **Out_of_Pocket_Expenses**: Amount paid out-of-pocket by the patient.
 
 
-###  Key Findings and Trends
+### Key Findings and Trends
 ### 1.1 Patient Demographics and Health Data
 **Age Distribution:** The dataset includes patients ranging from 28 to 81 years old, with a significant number of elderly patients.
 
@@ -145,7 +145,7 @@ This dataset contains billing information for patients, including total bill amo
 
 **Treatment Plans**: Include observation, surgery, lifestyle changes, and medication.
 
-# 1.2 Hospital Resource Utilization
+### 1.2 Hospital Resource Utilization
 **Bed Occupancy Rate:** Ranges from 85.80% to 91.52%, indicating high utilization of hospital beds.
 
 **ICU Availability:** Varies between 7 and 19 beds, with some dates showing higher demand.
@@ -154,25 +154,25 @@ This dataset contains billing information for patients, including total bill amo
 
 **X-ray Usage**: Ranges from 1 to 10, with some dates showing peak usage.
 
-# 1.3 Medical Records
+### 1.3 Medical Records
 Prescribed Medications: Various medications are prescribed, with dosages typically around 500mg.
 
 **Tests Ordered**: Common tests include MRI, ECG, blood tests, and urinalysis.
 
 **Test Results:** Results range from normal to critical, indicating varying severity of patient conditions.
 
-# 1.4 Billing Information
+### 1.4 Billing Information
 **Total Bill**: Ranges from 1,461 to 1,461to4,657, with significant variation in costs.
 
 **Insurance Coverage:** Coverage percentages range from 61.53% to 93.88%, with out-of-pocket expenses ranging from 
 126.68 to 126.68to1,789.81.
 
-# 2. Data Quality and Missing Values
+### 2. Data Quality and Missing Values
 **Patients Table:** 116 missing discharge dates, indicating some patients are still admitted or data is incomplete.
 
 **Hospital Resources, Medical Records, and Billing Tables**: No missing values, indicating complete data for these tables.
 
-# 3. Trends and Insights
+### 3. Trends and Insights
 **High Bed Occupancy:** The hospital frequently operates near full capacity, suggesting a need for additional resources or better resource management.
 
 **Variability in Resource Usage:** MRI and ventilator usage show significant variability, indicating fluctuating demand that could benefit from predictive modeling to optimize resource allocation.
