@@ -135,20 +135,8 @@ This dataset contains billing information for patients, including total bill amo
 **Out_of_Pocket_Expenses**: Amount paid out-of-pocket by the patient.
 
 
-### Detailed Analysis Report: Healthcare Dataset Exploration
-# 1. Overview of the Dataset
-The dataset comprises four main tables:
-
-**Patients**: Contains patient information including ID, name, age, gender, blood type, admission and discharge dates, diagnosis, and treatment plan.
-
-**Hospital Resources**: Includes data on bed occupancy rate, ICU availability, MRI and ventilator usage, and X-ray usage over time.
-
-**Medical Records**: Records patient IDs, dates, prescribed medications, tests ordered, and test results.
-
-**Billing**: Contains billing information including patient ID, billing date, total bill, insurance coverage percentage, and out-of-pocket expenses.
-
-### 2. Key Findings and Trends
-### 2.1 Patient Demographics and Health Data
+### 1. Key Findings and Trends
+### 1.1 Patient Demographics and Health Data
 **Age Distribution:** The dataset includes patients ranging from 28 to 81 years old, with a significant number of elderly patients.
 
 **Gender Distribution**: The sample shows a mix of male and female patients.
@@ -157,7 +145,7 @@ The dataset comprises four main tables:
 
 **Treatment Plans**: Include observation, surgery, lifestyle changes, and medication.
 
-# 2.2 Hospital Resource Utilization
+# 1.2 Hospital Resource Utilization
 **Bed Occupancy Rate:** Ranges from 85.80% to 91.52%, indicating high utilization of hospital beds.
 
 **ICU Availability:** Varies between 7 and 19 beds, with some dates showing higher demand.
@@ -166,25 +154,25 @@ The dataset comprises four main tables:
 
 **X-ray Usage**: Ranges from 1 to 10, with some dates showing peak usage.
 
-# 2.3 Medical Records
+# 1.3 Medical Records
 Prescribed Medications: Various medications are prescribed, with dosages typically around 500mg.
 
 **Tests Ordered**: Common tests include MRI, ECG, blood tests, and urinalysis.
 
 **Test Results:** Results range from normal to critical, indicating varying severity of patient conditions.
 
-# 2.4 Billing Information
+# 1.4 Billing Information
 **Total Bill**: Ranges from 1,461 to 1,461to4,657, with significant variation in costs.
 
 **Insurance Coverage:** Coverage percentages range from 61.53% to 93.88%, with out-of-pocket expenses ranging from 
 126.68 to 126.68to1,789.81.
 
-# 3. Data Quality and Missing Values
+# 2. Data Quality and Missing Values
 **Patients Table:** 116 missing discharge dates, indicating some patients are still admitted or data is incomplete.
 
 **Hospital Resources, Medical Records, and Billing Tables**: No missing values, indicating complete data for these tables.
 
-# 4. Trends and Insights
+# 3. Trends and Insights
 **High Bed Occupancy:** The hospital frequently operates near full capacity, suggesting a need for additional resources or better resource management.
 
 **Variability in Resource Usage:** MRI and ventilator usage show significant variability, indicating fluctuating demand that could benefit from predictive modeling to optimize resource allocation.
@@ -193,7 +181,7 @@ Prescribed Medications: Various medications are prescribed, with dosages typical
 
 **Billing Variability**: High variability in billing amounts and insurance coverage indicates a need for standardized billing practices and potential financial assistance programs for patients with high out-of-pocket expenses.
 
-### 5. Recommendations
+### 4. Recommendations
 **Resource Optimization**: Implement predictive analytics to forecast demand for ICU beds, MRI, and ventilators to optimize resource allocation and reduce wait times.
 
 **Patient Management**: Focus on early intervention and management of chronic conditions like diabetes and hypertension to reduce hospital admissions.
@@ -204,6 +192,6 @@ Prescribed Medications: Various medications are prescribed, with dosages typical
 
 **Standardized Billing**: Review and standardize billing practices to reduce variability and ensure fair billing across all patients.
 
-### 6. Conclusion
+### 5. Conclusion
 The dataset provides valuable insights into patient demographics, hospital resource utilization, medical treatments, and billing practices. By addressing the identified trends and data quality issues, the hospital can improve patient care, optimize resource usage, and enhance financial management. Predictive analytics and targeted interventions could further enhance operational efficiency and patient outcomes.
 
